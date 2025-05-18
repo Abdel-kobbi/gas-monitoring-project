@@ -62,6 +62,7 @@ Ce projet vise à développer un **système intelligent de surveillance des gaz*
 cd backend/
 pip install -r requirements.txt
 python app.py
+python mqtt.py
 ```
 ### 🌐 Frontend (React)
 ```bash
