@@ -19,7 +19,7 @@ def on_message(client, userdata, msg):
     save_to_db(gas_level, alert)
     
     if alert:
-        #send_sms(f"Alerte Gaz détectée ! Niveau: {gas_level} ppm.")
+        send_sms(f"Alerte Gaz détectée ! Niveau: {gas_level} ppm.")
         send_email(gas_level)
 
 # === MQTT SETUP ===
