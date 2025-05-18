@@ -1,0 +1,30 @@
+body {
+    background-image: url("/bg.jpg") !important;
+    background-position: center !important;
+    background-size: cover !important;
+    font-family: 'Segoe UI', sans-serif !important;
+
+}
+
+
+.hover-bg-light:hover {
+    background-color: #f0f0f025 !important;
+    transition: background-color 0.3s ease !important;
+}
+
+.transition {
+    transition: all 0.3s ease !important;
+}
+
+.bg-gradient {
+    background: linear-gradient(to right, #1e3c72, #2a5298) !important;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.click:active {
+    transform: scale(.8);
+    transition: all .2s linear;
+}
