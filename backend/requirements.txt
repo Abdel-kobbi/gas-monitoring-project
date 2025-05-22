@@ -2,4 +2,5 @@ paho-mqtt
 mysql-connector-python
 twilio
 Flask
+flask_cors
 plotly
